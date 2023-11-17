@@ -7,8 +7,26 @@
   </head>
   <body>
     <form>
-      <input id="green" type="radio" />
+      <input id="green" type="radio" name="color" value="green" />
       <label for="green">Verde</label>
+      <br />
+
+      <input id="red" type="radio" name="color" value="red" />
+      <label for="red">Rojo</label>
+    </form>
+    <br />
+
+    <form>
+      <input id="pink" type="checkbox" name="color" value="pink" />
+      <label for="pink">Rosado</label>
+      <br />
+
+      <input id="yellow" type="checkbox" name="color" value="yellow" />
+      <label for="yellow">Amarillo</label>
+      <br />
+
+    </form>
+    <input type="button" onclick="alert('Hola mundo');" />
     </form>
   </body>
 </html>
